@@ -65,20 +65,20 @@ module.exports = db
 
 
   //  //consultar os dados - sql
-  //   db.all(`SELECT name FROM places`, function(err, rows){
-  //     if(err) { 
-  //       return console.log(err) 
-  //     }
+    // db.all(`SELECT * FROM places`, function(err, rows){
+    //   if(err) { 
+    //     return console.log(err) 
+    //   }
 
-  //     console.log('Aqui estão os registros: ')
-  //     console.log(rows)
-  //   })
+    //   console.log('Aqui estão os registros: ')
+    //   console.log(rows)
+    // })
 
     //Deletar um dado da tabela - sql
-  //   db.run(`DELETE FROM places WHERE id=?`, [0], function(err){
-  //     if(err){
-  //       return console.log(err)
-  //     }
-  //     console.log('Registro apagado com sucesso')
-  //   }) 
-  // })
+    // db.run(`DELETE FROM places WHERE id=?`, [8], function(err){
+    //   if(err){
+    //     return console.log(err)
+    //   }
+    //   console.log('Registro apagado com sucesso')
+    // }) 
+ // })
